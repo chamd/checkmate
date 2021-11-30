@@ -1,3 +1,13 @@
+@font-face {
+    font-family: ns;
+    src: url(../font/ns.ttf);
+}
+
+@font-face {
+    font-family: nsr;
+    src: url(../font/nsr.ttf);
+}
+
 body {
     margin: 0;
     background-color: white;
@@ -23,6 +33,7 @@ body > * {
 }
 
 .menu a {
+    font-family: 'nsr';
     margin-right: 30px;
     transition: all .3s;
 }
@@ -38,6 +49,7 @@ body > * {
 }
 
 .content-title {
+    font-family: 'ns';
     position: relative;
     background-color: #555369;
     height: 70px;
@@ -49,11 +61,13 @@ body > * {
 }
 
 .titles {
+    font-family: 'ns';
     font-size: 30px;
     font-weight: 700;
 }
 
 .descs {
+    font-family: 'nsr';
     font-size: 20px;
 }
 
@@ -79,6 +93,7 @@ body > * {
 }
 
 .index-btns > * {
+    font-family: 'nsr';
     width: 600px;
     height: 200px;
     margin-top: 100px;
